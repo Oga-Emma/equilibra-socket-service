@@ -1,5 +1,5 @@
 const outgoing = require('./socket-outgoing')
-const socket = require('socket.io-client')('https://api.equilibra-admin.test.natterbase.com/');
+const socket = require('socket.io-client')('https://api.theequilibra.com/');
 
 
 socket.on('connect', function () {
