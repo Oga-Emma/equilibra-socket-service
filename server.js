@@ -52,7 +52,7 @@ refreshAccount = (payload) => {
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-    const socket = require('socket.io-client')('https://api.equilibra-admin.test.natterbase.com/');
+    const socket = require('socket.io-client')('https://api.theequilibra.com/');
 
     socket.on('connect', function () {
         console.log('Connected external');
@@ -62,6 +62,8 @@ server.listen(PORT, () => {
         emitTopicChange(payload);
     });
     socket.on('comment', (payload) => {
+
+        console.log('comment');
         emitNewComment(payload);
     });
     socket.on('account-suspended', (payload) => {
@@ -95,6 +97,6 @@ server.listen(PORT, () => {
     socket.on('disconnect', function () {
         console.log('Disconnected');
     });
-    
+
     console.log('Server started')
 });
