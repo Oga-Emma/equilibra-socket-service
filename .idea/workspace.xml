@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fdd6e5e8-c335-4bbb-a57f-d07f81ac7e84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket-incoming.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket-incoming.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +71,25 @@
       <option name="presentableId" value="Default" />
       <updated>1598644560637</updated>
       <workItem from="1598644562704" duration="6161000" />
-      <workItem from="1604762093197" duration="32000" />
+      <workItem from="1604762093197" duration="502000" />
+      <workItem from="1605002242051" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2236" y="455" key="Github.ShareDialog" timestamp="1598650265958">
@@ -70,9 +100,10 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2181" y="256" key="Github.UntrackedFilesDialog/1440.23.1920.1057/0.23.1440.828@1440.23.1920.1057" timestamp="1598650284253" />
-    <state x="2000" y="291" key="Vcs.Push.Dialog.v2" timestamp="1598650449535">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="420" y="232" key="Vcs.Push.Dialog.v2" timestamp="1604762147877">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
+    <state x="420" y="232" key="Vcs.Push.Dialog.v2/0.23.1440.826@0.23.1440.826" timestamp="1604762147877" />
     <state x="2000" y="291" key="Vcs.Push.Dialog.v2/1440.23.1920.1057/0.23.1440.828@1440.23.1920.1057" timestamp="1598650449535" />
     <state x="2003" y="253" width="1425" height="726" key="dock-window-1" timestamp="1598651580522">
       <screen x="1440" y="23" width="1920" height="1057" />

@@ -1,6 +1,5 @@
 const outgoing = require('./socket-outgoing')
-const socket = require('socket.io-client')('https://api.theequilibra.com/');
-
+const socket = require('socket.io-client')('https://api.theequilibra.com/users-api');
 
 socket.on('connect', function () {
     console.log('Connected external');
